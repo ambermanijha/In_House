@@ -1,0 +1,14 @@
+1. Data management (healthy, unhealthy)/stages
+	a. IF data is unlabelled:
+		i.  Cluster or classify data (method out of these two depends on dataset)
+		ii. Give labelled data to next step.
+	b. IF labelled:
+		I. continue.
+
+2. Build a GAN which is *not* a classifying GAN.
+
+3. build separate instances and train them and save them for all classes depending on how many were given by step 1.
+
+4.use saved and trained GANS to give outputs which should be saved in a separate folder for each class(separate GANs now) which will all be inside the output folder.
+
+5.Build website which allows the user to access the output folder.
